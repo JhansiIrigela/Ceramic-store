@@ -1,0 +1,147 @@
+/* mobile */
+@media screen and (max-width: 768px) {
+    /* this apply width below 480px */
+    nav {
+      padding: 20px;
+    }
+  
+    .search {
+      display: none;
+    }
+  
+    .navBottom {
+      flex-wrap: wrap;
+    }
+  
+    .menuItem {
+      margin: 20px;
+      font-weight: 700;
+      font-size: 20px;
+    }
+  
+    /* slider */
+    .slider {
+      clip-path: none;
+    }
+    .slider Img {
+      width: 90%;
+    }
+    .sliderBg {
+      width: 100%;
+      height: 100%;
+    }
+    .sliderTitle {
+      display: none;
+    }
+    .sliderPrice {
+      top: unset;
+      bottom: 0;
+      left: 0;
+      color: #000;
+    }
+    .buyButton {
+      right: 0;
+      top: 0;
+    }
+    /* feature */
+    .features {
+      flex-direction: column;
+    }
+    /* product */
+    .product {
+      clip-path: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .productImg {
+      /* height: 300px; */
+      width: auto;
+      height: auto;
+    }
+    .productDetails {
+      width: 100%;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      /* important */
+      position: relative;
+      top: 0;
+    }
+    .productTitle {
+      font-size: 50px;
+      margin: 0;
+    }
+    .productDesc {
+      font-size: 15px;
+    }
+    /* gallery */
+    .gallery {
+      display: none;
+    }
+  
+    /* new seasono */
+    .newSeason {
+      flex-direction: column;
+    }
+    .nsItem:nth-child(2) {
+      padding: 50px;
+    }
+  
+    /* footer */
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footerLeft {
+      padding: 20px;
+      width: auto;
+    }
+    .footerRight {
+      padding: 20px;
+      width: 90%;
+      align-items: center;
+      background-color: whitesmoke;
+    }
+    .payment {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
+  /* Tab */
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .product {
+      height: 50vh;
+    }
+    .sliderTitle {
+      top: 0%;
+      right: 0%;
+    }
+    .buyButton {
+      right: 0;
+      top: 0;
+    }
+    .product {
+      clip-path: none;
+    }
+    /* .productDetails{
+      padding: 20p;
+    } */
+    .productDesc {
+      font-size: 14px;
+    }
+    .productTitle {
+      font-size: 30px;
+    }
+    .payment {
+      width: 30%;
+      height: 400px;
+      overflow: scroll;
+    }
+  }
+  
+  
+  
